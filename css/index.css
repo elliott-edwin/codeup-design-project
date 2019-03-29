@@ -1,16 +1,12 @@
-#all-main: {
+#all-main {
     display: block;
+
 }
 
 #main1 {
        display: inline;
        text-align: center;
        margin-top: 2em;
-}
-#main2 {
-        display: inline;
-        text-align: center;
-        margin-bottom: 2em;
 }
 
 #utah {display: inline-block;
@@ -20,12 +16,37 @@
 .btn {
     border-radius: 50%;
     color: white;
-    border: yellowgreen 2px;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     padding: 2px;
     margin: 1em;
+    border: 5px solid white;
+
+
+}
+.btn-primary {
+    background-color: orangered;
 }
 
+.btn-secondary {
+    background-color: orange;
+}
+.btn-success {
+    background-color: mediumseagreen;
+}
 
+.btn-danger {
+    background-color: lightseagreen;
+}
+
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+#big-pics {
+    margin: 2em;
+}
+.row {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
