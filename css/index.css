@@ -19,9 +19,14 @@
     height: 150px;
     width: 150px;
     padding: 2px;
-    margin: 0.5em;
     border: 5px solid white;
+    font-family: anton;
+    margin: 0.5em;
+    font-size: xx-large;
+}
 
+.btn1 {
+    font-family: anton;
 
 }
 .btn-primary {
@@ -31,14 +36,52 @@
 .btn-secondary {
     background-color: orange;
 }
+.btn-secondary1 {
+    background-color: orangered;
+    height: 32px;
+    width: 30px;}
+
+.d1 {
+    background-color: orangered;
+    color: black;
+    height: 30px;
+    width: 29px;
+
+
 .btn-success {
     background-color: mediumseagreen;
 }
 
+.button-row {
+    display: flex;
+    justify-content: center;
+}
 .btn-danger {
     background-color: lightseagreen;
 }
+}
 
+.d {
+    background-color: #E6563B;
+    border: 3px solid lightgray;
+    color: #000;
+}
+.d2 {
+    background-color: #EB9D3A;
+    border: 3px solid lightgray;
+    color: #000;
+}
+.s {
+    background-color: #7CB06C;
+    border: 3px solid lightgray;
+    color: #000;
+}
+
+.h {
+    background-color: #00ABA9;
+    border: 3px solid lightgray;
+    color: #000;
+}
 body {
     background-color: lightgray;
     text-align: center;
@@ -51,9 +94,42 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.card {
+.card-img {
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 2em;
     display: inline-block;
+    max-width: 400px;
 }
+
+.card-img1 {
+    max-width: 150px;
+}
+
+.last-half {
+    justify-content: center;
+    border-top: solid gray 2px;
+    padding-top: 1em;
+}
+h5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: abel;
+}
+h2 {
+    font-family: anton;
+}
+h3 {
+    font-family: abel;
+}
+h4 {
+    font-family: anton;
+}
+p {
+    font-family: able;
+}
+
+
